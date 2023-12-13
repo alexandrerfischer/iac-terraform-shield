@@ -44,8 +44,9 @@ Auto-generated technical documentation is created using [`Terraform-Docs-AWS`](h
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
+| <a name="input_name"></a> [name](#input\_name) | A friendly name for the Protection you are creating | `string` | `null` | yes |
+| <a name="input_resource_arn"></a> [resource\_arn](#input\_resource\_arn) | The ARN (Amazon Resource Name) of the resource to be protected | `string` | `null` | yes |
 | <a name="input_default_tags"></a> [default\_tags](#input\_default\_tags) | Default tags to apply to all trails. | `map(string)` | `{}` | no |
-| <a name="input_shield_protection"></a> [shield\_protection](#input\_shield\_protection) | subnet variables | <pre>list(object({<br>    name         = string<br>    resource_arn = string<br>}))</pre> | `null` | yes |
 
 ## Outputs
 

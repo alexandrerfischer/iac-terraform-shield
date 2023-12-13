@@ -45,7 +45,7 @@ Auto-generated technical documentation is created using [`Terraform-Docs-AWS`](h
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_default_tags"></a> [default\_tags](#input\_default\_tags) | Default tags to apply to all trails. | `map(string)` | `{}` | no |
-| <a name="input_shield_protection"></a> [shield\_protection](#input\_shield\_protection) | subnet variables | <pre>list(object({<br>    name         = string<br>    resource_arn = string<br>    tags         = map(string)<br>  }))</pre> | `null` | no |
+| <a name="input_shield_protection"></a> [shield\_protection](#input\_shield\_protection) | subnet variables | <pre>list(object({<br>    name         = string<br>    resource_arn = string<br>}))</pre> | `null` | no |
 
 ## Outputs
 
